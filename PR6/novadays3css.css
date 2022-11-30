@@ -1,0 +1,47 @@
+*{
+   box-sizing: border-box;
+}
+
+.novadays__ullist:nth-child(odd){
+    background-color: gray;
+ }
+
+ .novadays__ollist:nth-child(3){
+    cursor: pointer;
+ }
+ .novadays__ollist:nth-child(5){
+    cursor: pointer;
+ }
+ .novadays__ollist:nth-child(4){
+    background-color:  #3cff5c;
+ }
+
+ h1{
+   text-align: center;
+   font-size: 22px;    
+ }
+
+ .back__tomain{
+   font-style: italic;
+ }
+
+ h2{
+   text-align: center;
+ }
+
+
+ @media (min-width: 992px)  {
+   .container{
+      display: flex;
+
+   }
+
+   .container__1{
+      width: 50%;
+   }
+
+   .container__2{
+      width: 50%;
+      margin-left: 10px;
+   }
+}
