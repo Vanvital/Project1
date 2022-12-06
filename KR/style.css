@@ -2,8 +2,17 @@ body{
     box-sizing: border-box;
 }
 
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
 h4{
     font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
+}
+
+p, li, th, td, a{
+    font-family: 'Roboto', sans-serif;
 }
 
 .block__1{
@@ -14,7 +23,7 @@ h4{
 }
 
 .block__1 h4{
-    width: 110px;
+    width: 120px;
     height: 30px;
     background-color: #0000ff;
     color: #fff;
@@ -30,7 +39,7 @@ h4{
 }
 
 .block__2 h4{
-    width: 110px;
+    width: 120px;
     height: 30px;
     background-color: #0000ff;
     color: #fff;
@@ -46,7 +55,7 @@ h4{
 }
 
 .block__3 h4{
-    width: 110px;
+    width: 120px;
     height: 30px;
     background-color: #0000ff;
     color: #fff;
@@ -62,14 +71,21 @@ h4{
 }
 
 .block__4 h4{
-    width: 110px;
+    width: 120px;
     height: 30px;
     background-color: #0000ff;
     color: #fff;
 
 }
 
+@media (min-width: 1200px) {
+   
+    }
 
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
+@media (min-width: 768px) and (max-width: 992px) {
+
+    }
+
+@media(max-width: 768px){
+
+}
